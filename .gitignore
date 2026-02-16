@@ -1,0 +1,24 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# Android
+/build
+/app/build
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+*.apk
+*.aab
+
+# Kotlin
+*.class
+
+# Java
+*.hprof
+
+# Others
+.vscode/

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded square background - soft purple-blue gradient feel (Lynq-inspired) -->
+    <path
+        android:fillColor="#6B5BCC"
+        android:pathData="M24,12 L84,12 Q96,12 96,24 L96,84 Q96,96 84,96 L24,96 Q12,96 12,84 L12,24 Q12,12 24,12 Z" />
+
+    <!-- Central graphic: two intertwined rings (link / echo / translation) - white, high contrast -->
+    <!-- Left ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M42,54 m -12,0 a 12,12 0 1,1 0,24 a 12,12 0 1,1 0,-24 M42,54 m -6,0 a 6,6 0 1,1 0,12 a 6,6 0 1,1 0,-12" />
+    <!-- Right ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M66,54 m -12,0 a 12,12 0 1,1 0,24 a 12,12 0 1,1 0,-24 M66,54 m -6,0 a 6,6 0 1,1 0,12 a 6,6 0 1,1 0,-12" />
+</vector>
